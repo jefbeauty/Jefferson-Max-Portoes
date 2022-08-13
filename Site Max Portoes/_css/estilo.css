@@ -84,12 +84,14 @@ nav#menu ul {
 
 
 nav#menu li {
-
-color: white;
 display: inline-block;
-padding: 4px;
+padding: 10px;
+margin: 2px;
 background-color: rgb(179, 179, 179);
-margin: 4px;
+-webkit-transition: background-color 1s;
+-moz-transition: background-color 1s;
+-o-transition: background-color 1s;
+-ms-transition: background-color 1s;
 transition: background-color 1s;
 }
 
@@ -98,12 +100,28 @@ transition: background-color 1s;
 
 
 nav#menu:hover li {
-background-color: rgb(246, 246, 13);
+background-color: rgb(196, 196, 192);
 
 }
 
 
+nav#menu a {
+    color: black;
+    text-decoration: none;
 
+
+
+
+
+
+}
+
+nav#menu:hover a {
+color: white;
+text-decoration: underline;
+
+
+}
 
 /*Formatação de Imagem */
 
